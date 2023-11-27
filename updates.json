@@ -2,7 +2,10 @@
   "addons": {
     "{bb211db8-7db7-4fad-892f-5fa4750a588c}": {
       "updates": [
-
+        {
+          "version": "1.0",
+          "update_link": "https://github.com/IQisMySenpai/ColiStreamEnhancer/releases/download/v1.0/AutoInstall-1.0.xpi"
+        }
       ]
     }
   }
