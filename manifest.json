@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Colistream Enhancer",
+  "version": "1.0",
+
+  "description": "Makes Colistream better.",
+
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://colistream.ch/watch/*"],
+      "js": ["watching.js"]
+    }
+  ],
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bb211db8-7db7-4fad-892f-5fa4750a588c}"
+    }
+  }
+}
