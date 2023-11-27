@@ -22,7 +22,8 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "{bb211db8-7db7-4fad-892f-5fa4750a588c}"
+      "id": "{bb211db8-7db7-4fad-892f-5fa4750a588c}",
+      "update_url": "https://raw.githubusercontent.com/IQisMySenpai/ColiStreamEnhancer/main/updates.json"
     }
   }
 }
